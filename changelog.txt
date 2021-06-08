@@ -1,0 +1,5 @@
+--- DREK ---
+
+
+Version 3.2.8b (in progress)
+[Changed] Day of Defeat: Source support separated from Day of Defeat support.
