@@ -9,7 +9,7 @@ if (!defined("PSYCHOSTATS_PAGE")) die("Unauthorized access to " . basename(__FIL
 if (defined("CLASS_PS_SOURCE_DODS_PHP")) return 1;
 define("CLASS_PS_SOURCE_DODS_PHP", 1);
 
-include_once(dirname(__DIR__) . '/source.php');
+include_once(rtrim(dirname(__DIR__), '/\\') . '/source.php');
 
 class PS_source_dods extends PS_source {
 
