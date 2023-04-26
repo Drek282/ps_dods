@@ -403,7 +403,7 @@ sub event_connected {
 	my ($self, $timestamp, $args) = @_;
 	my ($plrstr, $ipstr, $props) = @$args;
 	my $ip = lc((split(/:/,$ipstr,2))[0]);
-	$ip = '127.0.0.1' if $ip eq 'localhost' or $ip eq 'loopback' or $ip !~ /(?:\d{1,3}\.){3}\d{1,3}/;
+	$ip = '127.0..0.1' if $ip eq 'localhost' or $ip eq 'loopback' or $ip !~ /(?:\d{1,3}\.){3}\d{1,3}/;
 
 	# strip out the worldid/uid and do not use get_plr() since players will have a STEAM_ID_PENDING
 	# I have to re-encode the player string here before stripping out the uid/worlid otherwise UTF8
