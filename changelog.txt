@@ -1,6 +1,7 @@
 --- DREK ---
 
 
-Version 3.2.8b (in progress)
+Version 3.2.8n (in progress)
 * [Changed] Day of Defeat: Source support separated from Day of Defeat support.
 * [Fixed] PHP 8 errors/warnings.
+* [Changed] Version string to indicate "nightly" status of current working version.
